@@ -1,0 +1,74 @@
+.main-img {
+    width: 80%;
+}
+.image-container {
+    width: 100%;
+    text-align: center;
+    height: 200px;
+}
+.show {
+    /*display: block;*/
+    opacity: 1;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+}
+.no-show-image {
+    opacity: 0 !important;
+}
+.words-container {
+    text-align: center;
+    width: 100%;
+    height: 75px;
+}
+.no-show {
+    opacity: 0 !important;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
+.contact-btn {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    cursor: pointer;
+}
+.word {
+    margin: 0;
+    font-size: 3vw;
+    font-family: 'Gudea', sans-serif;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    left: 0;
+    right: 0;
+    cursor: pointer;
+}
+.form-container {
+    width: 50%;
+    margin: auto;
+    border: solid 1px;
+    padding: 15px;
+}
+textarea {
+    resize: none;
+}
+.inputs {
+    display: block;
+}
+.contact-btn {
+    position: fixed;
+    top: 10px;
+    left: 20px;
+}
+.instagram-btn {
+    position: fixed;
+    top: 10px;
+    right: 20px;
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+}
