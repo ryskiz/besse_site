@@ -20,15 +20,7 @@ $(document).ready(function () {
     window.location.href = "mailto:joshua@painteddogz.com";
   })
 
-  function cycle () {
-    var curr = i
-    var next = i === 2 ? 0 : i + 1
-    var old = $(words[curr])
-    var newSelector = $(words[next])
-    old.addClass('no-show')
-    setTimeout(function () {
-      newSelector.removeClass('no-show')
-    }, 500)
-    i === 2 ? i = 0 : i++
-  }
+  $('.instagram-btn').click(function () {
+    window.open('https://www.instagram.com/painteddogz/')
+  })
 })
