@@ -76,4 +76,12 @@ textarea {
     width: 6vw;
     position: relative;
     bottom: 5px;
+    cursor: pointer;
+}
+
+.number {
+  margin: 0;
+  font-family: 'Gudea', sans-serif;
+  font-size: 15px;
+  margin-left: 3px;
 }
